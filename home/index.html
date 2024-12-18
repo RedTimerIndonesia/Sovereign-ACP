@@ -19,6 +19,17 @@
                 </button>
             </div>
         </nav>
+
+        <div id="toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto">Sovereign ACP</strong>
+                <small>Just now</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Successfully banned user <strong>AzharHrj</strong>!
+            </div>
+        </div>
         
         <!-- Sidebar Navigation -->
 
@@ -74,8 +85,9 @@
                     <p>Welcome to Sovereign Admin Control Panel</p>
                 </div>
             </div>
+
             <div class="row">
-                <div class="col">
+                <div class="col-sm-6">
                     <div class="card">
                         <div class="card-header">
                             <h3 id="staff-summary-title">Staff Summary (User ID 69)</h3>
@@ -85,10 +97,12 @@
                             <h5><span class="bold">Primary Role (As Staff): </span>Head of Administrator</h5>
                             <h5><span class="bold">Secondary Role:       </span>Game Administrator, Developer, Community Advisor</h5>
                             <h5><span class="bold">Status:     </span>Active staff at Sovereign since December, 1991.</h5>
+                            <br>
+                            <br>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-sm-5">
                     <div class="card">
                         <div class="card-header">
                             <h3>Monthly Point Wrapped</h3>
@@ -105,7 +119,9 @@
                     </div>
                 </div>
             </div> 
-        </div>
+
+
         <script src="../src/framework/bootstrap/js/bootstrap.min.js"></script>
+        <script src="./src/script/toast.js"></script>
     </body>
 </html>
